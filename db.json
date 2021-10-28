@@ -1,0 +1,145 @@
+{
+
+  "solicita": [
+
+    {
+      "id": 1,
+      "rut": "00061735046",
+      "glosaRespuesta": "ok",
+      "matriz": "A5;B2;I4",
+      "numeroTarjeta": "213123123123",
+      "resultado": 0
+
+    },
+
+    {
+
+      "rut": "112",
+      "glosaRespuesta": "ok",
+      "matriz": "A5;B2;I4",
+      "numeroTarjeta": "2323233244",
+      "resultado": 0,
+      "id": 2
+
+    },
+
+    {
+
+      "rut": "404",
+      "glosaRespuesta": "ok",
+      "matriz": "A4;C2;I4",
+      "numeroTarjeta": "455545342",
+      "resultado": 0,
+      "id": 3
+
+    },
+
+    {
+
+      "rut": "405",
+      "glosaRespuesta": "ok",
+      "matriz": "A2;D2;I4",
+      "numeroTarjeta": "1232132131232131231223",
+      "resultado": 0,
+      "id": 3
+
+    },
+
+    {
+
+      "rut": "113",
+      "glosaRespuesta": "[USER_DOES_NOT_EXIST:5203004] User 00108114959 was not found and cannot be used for authentication.",
+      "matriz": null,
+      "numeroTarjeta": 0,
+      "resultado": 5203004,
+      "id": 4
+
+      },
+
+      {
+
+        "rut": "114",
+        "glosaRespuesta": "[USER_LOCKED:5203016] Maximum authentication attempts exceeded. User clientes/00070709066 is locked.",
+        "matriz": null,
+        "numeroTarjeta": 0,
+        "resultado": 5203016
+
+      }
+
+  ],
+
+  "valida": [
+
+    {  
+
+      "rut": "00061735046",
+
+      "glosaRespuesta": "autenti exitosa",
+
+      "intentosFallidosRestantes": 0,
+
+      "resultado": 0
+
+    },
+
+    {
+
+      "rut": "112",
+      "glosaRespuesta": "autenti exitosa",
+      "intentosFallidosRestantes": 0,
+      "resultado": 0,
+      "matriz": "77;77;77"
+
+ 
+
+    }
+
+    ,
+
+    {
+
+      "rut": "112",
+      "glosaRespuesta": "autenti exitosa",
+      "intentosFallidosRestantes": 0,
+      "resultado": 0,
+      "matriz": "55;77;77"
+
+ 
+
+    },
+
+    {
+
+      
+
+ 
+
+        "rut": "404",
+
+        "glosaRespuesta": "Failure to authenticate user clientes/00070709066. Challenge not found.",
+
+        "intentosFallidosRestantes": 0,
+
+        "resultado": 5203007,
+
+        "matriz": "55;77;77"
+
+    
+
+    
+
+    },
+
+    {
+
+      "rut": "405",
+      "glosaRespuesta": "Failed authentication for user clientes/00070709066. Invalid response to a challenge. 4 GRID authentication attempts remaining.",
+      "intentosFallidosRestantes": 4,
+      "resultado": 5203000,
+      "matriz": "55;77;77"
+
+    }
+
+  ]
+
+}
